@@ -1,8 +1,4 @@
-.hover:hover {
-    background-color: rgba(220,53,69,1);
-    color: white;
-}
 
 .selected{
-    border: 2px solid pink !important;
+    background-color: #0dcaf0 !important;
 }
