@@ -47,7 +47,7 @@ function setExDelivery(price) {
 }
 
 
-// memory cost
+// 8GB Memory cost
 memory8.addEventListener('click', function () {
 if (!isSelected(memory8)) {
     
@@ -58,6 +58,7 @@ if (!isSelected(memory8)) {
     totalCost()
 })
 
+// 16GB Memory cost
 memory16.addEventListener('click', function () {
     if (!isSelected(memory16)) {
     
@@ -68,7 +69,7 @@ memory16.addEventListener('click', function () {
     totalCost()
 })
 
-// Storage Cost 
+// 256GB SSD Storage Cost 
 storage256.addEventListener('click', function () {
     if (!isSelected(storage256)) {
     
@@ -80,6 +81,7 @@ storage256.addEventListener('click', function () {
     totalCost()
 })
 
+// 512GB SSD Storage Cost 
 storage512.addEventListener('click', function () {
     if (!isSelected(storage512)) {
     
@@ -91,6 +93,7 @@ storage512.addEventListener('click', function () {
     totalCost()
 })
 
+// 1TB SSD Storage Cost 
 storage1.addEventListener('click', function () {
     if (!isSelected(storage1)) {
     
@@ -102,7 +105,7 @@ storage1.addEventListener('click', function () {
     totalCost()
 })
 
-// Delivery charge 
+// Free Delivery charge 
 freeDelivery.addEventListener('click', function () {
     if (!isSelected(freeDelivery)) {
     
@@ -113,6 +116,7 @@ freeDelivery.addEventListener('click', function () {
     totalCost()
 })
 
+// Paid Delivery charge 
 notFreeDelivery.addEventListener('click', function () {
     if (!isSelected(notFreeDelivery)) {
     
@@ -124,7 +128,7 @@ notFreeDelivery.addEventListener('click', function () {
 })
 
 
-// pomo code 
+// Promo Code using discount
 document.getElementById('pomo').addEventListener('click', function () {
     const pomoCode = document.getElementById('pomo-code')
     if (pomoCode.value == 'stevekaku') {
@@ -132,3 +136,4 @@ document.getElementById('pomo').addEventListener('click', function () {
         pomoCode.value = ''
     }
 })
+
